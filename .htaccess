@@ -1,0 +1,6 @@
+#RewriteEngine Off
+#RewriteCond %{HTTP_HOST} !^.*blackrockcity\.
+#RewriteRule ^(www\.)?(blackrockcity\.)?(.*)$ http://blackrockcity.$3 [R=301,L]
+
+
+
