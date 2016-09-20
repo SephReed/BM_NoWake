@@ -62,7 +62,7 @@
 	<br>
 	<div id="Disclaimer">
 		<h2><a href="#Disclaimer">Disclaimer</a></h2>
-		<p>There are many solutions on how to include two things which can not overlap happily.  It is not the potential solutions following that matter for those most affected by this, but an answer to the impetus.  If you do not like the solutions which have been proposed thus far, please <a href="#We_Might_Be_Wrong">give your reasons and perhaps a new solution</a>.  There is no way for a few people to know what is best for an entire community without some crazy download other peoples' experiences machine.  So for now, let's resort to group discussion.</p> 
+		<p>There are many solutions on how to include two things which can not overlap happily.  It is not the potential solutions following that matter for those most affected by this, but an answer to the impetus.  If you do not like the solutions which have been proposed thus far, please <a href="#We_Might_Be_Wrong">give your reasons and perhaps a new solution</a>.  There is no way for a few people to know what is best for an entire community without some crazy download other peoples' experiences machine.  So for now, let's resort to <a href="#We_Might_Be_Wrong">group discussion.</a>.</p> 
 	</div>
 	<br>
 
@@ -88,20 +88,19 @@
 		<a href="public/images/BM_NoWakeZone_TempleThirds.png">
 			<img src="public/images/BM_NoWakeZone_TempleThirds-small.png">centered at 4:00 and 8:00 on India street with a diameter of three blocks, the spaces are both effective and mathematically simple.
 		</a>
-
 		<div class="pros_cons">
-			<b>Why we like this placement:</b>
+			<center><b><u>Why we like this placement:</u></b></center>
 			<ul>
 				<li>It interferes with the least amount of theme camps on the map.</li>
 				<li>Is is midway between the center camp and sound camp areas.</li>
 				<li>It uses the number three which is the only other prime factor of twelve (2 and 3).  There are many beautiful properties to the number three in both physics and aesthetics.</li>
-				<li>It splits the circle into thirds starting at the temple, and is about the same distance from the man.  This creates an underlying pattern that relates it to the temple and the man in the same way center camp relates to them.</li>
+				<li>It splits the circle into thirds starting at the temple, and is about the same distance from the man.  This creates an underlying pattern that relates it to the temple and the man in the same way center camp splits the circle in halves.</li>
 				<li>It is very far from the Esplanade and B street party zone.</li>
-				<li>It is two blocks away from the outer ring, making easy to avoid for incoming cars.</li>
+				<li>It is two blocks away from the outer ring, making it easy to avoid for incoming cars.</li>
 				<li>It will be easier to MOOP than open playa.</li>
-				<li>It incentivises city wide and suburban exploration.</li>
+				<li>It incentivises city wide suburban exploration.</li>
 				<li>It neither interferes with nor requires the creation of roads.  People can pass through in the same way as open playa.</li>
-				<li>It is large enough to house multiple art pieces and create a sense of space.</li>
+				<li>It is large enough to comfortably fit multiple art pieces and create a sense of open space.</li>
 			</ul>
 		</div>
 	</div>	
@@ -280,7 +279,8 @@ body {
 	#content {
 		/*width: 65%;*/
 		/*margin-left: 12%;*/
-		background: linear-gradient(#F5EEE4, #D2BA8D);
+		/*background: linear-gradient(#F5EEE4, #D2BA8D);*/
+		background: linear-gradient(#F5EEE4, #E4D5B9);
 		padding: 0px 20% 0px 15%;
 		border-top: 1px solid #555;
 		border-bottom: 1px solid #555;
@@ -315,7 +315,7 @@ body {
 		#placement_images {
 			position: relative;
 			overflow: hidden;
-			
+			margin-top: 8px;
 		}
 
 			#placement_images > a, #placement_images > .pros_cons {
@@ -325,6 +325,26 @@ body {
 				/*position: absolute;*/
 				/*top: 0px;*/
 			}
+				
+				#placement_images > .pros_cons {
+					margin: 0px 0px 0px 5px;
+					padding: 4px;
+					background: #FFF8;
+					border-radius: 5px;
+				}
+
+					#placement_images ul {
+						padding-left: 20px;
+					}
+
+						#placement_images li {
+							padding-bottom: 3px;
+							
+						}
+
+						#placement_images ul li:not(first-child) {
+							border-top: 1px solid #3331;
+						}
 
 			#placement_images > a {
 				text-align: center;
