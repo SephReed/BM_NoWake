@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12402,
+				"buffer_size": 13038,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -578,7 +578,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/seph/Code/Web/BM_NoWake"
+		"/Users/seph-play/Code/BM_NoWake"
 	],
 	"file_history":
 	[
@@ -713,7 +713,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -1015,15 +1015,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12402,
+						"buffer_size": 13038,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12254,
-								12254
+								7492,
+								7492
 							]
 						],
 						"settings":
@@ -1032,7 +1032,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 28.0,
+						"translation.y": 1531.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1072,7 +1072,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1109,7 +1109,7 @@
 	"project": "nowake.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
